@@ -4,4 +4,14 @@
     <js-module name="SaveImage" src="www/SaveImage.js">
         <clobbers target="cordova.plugins.SaveImage" />
     </js-module>
+     <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="SaveImage">
+                <param name="ios-package" value="CDVSaveImage"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVSaveImage.h" />
+        <source-file src="src/ios/CDVSaveImage.m" />
+    </platform>
 </plugin>

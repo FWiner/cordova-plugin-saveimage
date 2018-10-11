@@ -1,7 +1,7 @@
 {
-  "name": "SaveImage",
+  "name": "cordova-plugin-saveimage",
   "version": "1.0.0",
-  "description": "",
+  "description": "cordova plugin save image to album",
   "cordova": {
     "id": "cordova-plugin-saveimage",
     "platforms": []
