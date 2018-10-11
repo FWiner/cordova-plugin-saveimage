@@ -1,0 +1,22 @@
+{
+  "name": "SaveImage",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-saveimage",
+    "platforms": []
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FWiner/cordova-plugin-saveimage.git"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/FWiner/cordova-plugin-saveimage/issues"
+  },
+  "homepage": "https://github.com/FWiner/cordova-plugin-saveimage#readme"
+}
